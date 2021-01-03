@@ -64,7 +64,7 @@ html, body{
 }
 .t{
   text-align: center;
-  margin:.5vh 2vw ;
+  margin:.5vh 2vw 0 2vw ;
 }
 .line{
   width: 100%;
@@ -99,5 +99,8 @@ html, body{
 @media only screen and (max-width: 530px){
   .footercont{
       flex-direction: column;
+  }
+  .img3{
+    height: 200px;
   }
 }
