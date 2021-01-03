@@ -1,38 +1,103 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  margin: 0%;
+  padding: 0%;
+  background-image: linear-gradient( white, rgb(250, 215, 120));
+  font-family: serif;
+}
+.comp{
+  margin: 0 ;
+  padding: 0;
+  overflow: hidden;
+}
+.logo{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 15vh;
+  overflow: hidden;
+}
+#logo-img{
+  height: 100%;
+  width: auto;
+}
+.headcont{
+  display: flex;
+  flex-direction: row;
+
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+}
+.cont{
+ 
+  text-align: left;
+  
+}
+.text{
+  width: 70vw;
+}
+
+#trophy{
+  height: 85vh;
+}
+#im{
+  height: 50vh;
+  width: 70vw;
+}
+.img3{
+  background-image: url("./3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 95vh;
+  width: 95%;
+  margin: 0 1vw;
+}
+.dot{
+  height: 6px;
+}
+.t{
+  text-align: center;
+  margin:.5vh 2vw ;
+}
+.line{
+  width: 100%;
+  background-color: tomato;
+  height: .5vh;
+  margin: 1vh 0vw;
+}
+.footercont{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: tomato;
+  color: white;
+  width: 100vw;
+}
+.fcont{
+  height: 10vh;
+  width: 34vw;
+
+  margin: 7vh 2vw;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.link{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.icon{
+  height: 5vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 530px){
+  .footercont{
+      flex-direction: column;
   }
 }
